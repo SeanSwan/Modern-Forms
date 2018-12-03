@@ -15,14 +15,14 @@ const switchTime = 200; // Transition Between Questions
 let position = 0;
 
 // Init Dom Elements
-const formBox = document.QuerySelector('#form-box');
-const nextBtn = document.QuerySelector('#next-btn');
-const prevBtn = document.QuerySelector('#prev-btn');
-const inputGroup = document.QuerySelector('#input-group');
-const inputField = document.QuerySelector('#input-field');
-const inputLabel = document.QuerySelector('input-label');
-const inputProgress = document.QuerySelector('#input-progress');
-const progress = document.QuerySelector('#progress-bar');
+const formBox = document.querySelector('#form-box');
+const nextBtn = document.querySelector('#next-btn');
+const prevBtn = document.querySelector('#prev-btn');
+const inputGroup = document.querySelector('#input-group');
+const inputField = document.querySelector('#input-field');
+const inputLabel = document.querySelector('input-label');
+const inputProgress = document.querySelector('#input-progress');
+const progress = document.querySelector('#progress-bar');
 
 //EVENTS
 
