@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Roboto=shadow-multiple|3d-float");
 body {
   background: #428bca;
   font-family: "Roboto", sans-serif;
@@ -72,7 +73,7 @@ h1.logo {
     box-shadow: none; }
   #input-group #input-label {
     position: absolute;
-    pointer-events: absolute;
+    pointer-events: none;
     top: 32px;
     left: 20px;
     font-size: 20px;
@@ -103,3 +104,7 @@ h1.logo {
 
 .error #next-btn {
   color: #ff2d26; }
+
+@media (max-width: 600px) {
+  #form-box {
+    width: 80%; } }
