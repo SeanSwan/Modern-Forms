@@ -26,7 +26,7 @@ const progress = document.querySelector('#progress-bar');
 
 //EVENTS
 
-document.addEventListhener('DOMContentLoaded', getQuestion);
+document.addEventListener('DOMContentLoaded', getQuestion);
 
 //FUNCTIONS
 
